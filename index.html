@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertendo Texto em Audio</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>Convertendo Texto em Audio</h1>
+    </header>
+    <main>
+        <textarea name="" id="textarea"></textarea>
+        <select name="" id="voices"> </select>
+        <label for="speed">Velocidade:</label>
+        <select id="speed">
+        <option value="0.5">0.5x</option>
+        <option value="0.75">0.75x</option>
+        <option value="1.0" selected>1.0x</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2.0">2.0x</option>
+        </select>
+        
+        <button id="button">Falar</button>
+        <button id="stopButton">Parar</button>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+    
+</body>
+</html>
